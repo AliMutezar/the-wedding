@@ -128,7 +128,7 @@
                     
                     <p class="text-playfair text-center fs-5 fw-bold" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">Ahmad Ali Mutezar</p>
                     <p class="text-playfair fs-6 text-center putra-putri" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">
-                        Alm. Bapak Tolibin & Ibu Fitriah
+                        Putra dari Alm. Bapak Tolibin & Ibu Fitriah
                     </p>
                 </div>
                 <img src="{{ asset('asset/img/BG Watersplash.png') }}" class="p-0 start-0 position-absolute img-fluid w-100 bg-watersplash" alt="bg_watersplash">
@@ -239,7 +239,7 @@
                             <div class="col-12 mt-3">
                                 <button class="btn-gift btn-lg btn w-75 p-0 m-0">
                                     <p class="d-inline font-14 text-playfair">Rekening BCA a.n Ahmad Ali Mutezar</p>
-                                    <p class="nomor-rek-tezar text-playfair fw-bold" text-playfair>2290315126</p>
+                                    <p class="nomor-rek-tezar text-playfair fw-bold">2290315126</p>
                                     <p class="mt-2 salin-rekening-tezar font-14 text-playfair">Salin nomor rekening</p>
                                 </button>
                             </div>

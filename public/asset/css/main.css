@@ -296,6 +296,11 @@ hr {
     width: 35%;
 }
 
+
+.btn-gift:active {
+    background-color: #fff !important;
+}
+
 .audio-icon-wrapper {
     width: 4rem;
     height: auto;
