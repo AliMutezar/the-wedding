@@ -7,6 +7,7 @@
         {{ ucwords($title) }}
     </title>
     <meta property="og:description" content="23 Desember 2023">
+    <meta property="og:image" content="{{ asset('asset/img/lucu.jpg') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('asset/css/main.css') }}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -101,10 +102,10 @@
             <div class="col-sm-12 p-0">
                 <div class="position-relative">
                     <img src="{{ asset('asset/img/Flower Down.png') }}" class="img-fluid w-100" alt="flower">
-                    <div class="text-center salam" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-anchor-placement="top-bottom">
+                    <div class="text-center salam" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-anchor-placement="top-bottom">
                         <p>Assalamu’alaikum <br> Warahmatullahi Wabarakatuh</p>
                     </div>
-                    <p class="text-center salam-desc" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="500">
+                    <p class="text-center salam-desc" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="500">
                         Dengan segala kerendahan hati dan dengan <br> ucapan syukur atas karunia Allah SWT, <br> kami hendak menyampaikan <br> kabar bahagia  pernikahan kami :
                     </p>
                 </div>
@@ -113,21 +114,21 @@
             <!-- Putra & Putri -->
             <div class="col-sm-12 position-relative">
                 <div style="z-index: 1;">
-                    <div class="mx-auto text-center w-100 margin-cpw" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200">
+                    <div class="mx-auto text-center w-100 margin-cpw" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200">
                         <img src="{{ asset('asset/img/Sahira Salsabila.png') }}" class="img-fluid photo-mempelai" alt="photo_sahira_salsabila">
                     </div>
 
-                    <p class="text-playfair text-center fs-5 fw-bold" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">Sahira Salsabila</p>
-                    <p class="text-playfair fs-6 text-center putra-putri" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">
+                    <p class="text-playfair text-center fs-5 fw-bold" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">Sahira Salsabila</p>
+                    <p class="text-playfair fs-6 text-center putra-putri" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">
                         Putri dari Bapak Suwardi & Ibu Faridah
                     </p>
 
-                    <div class="mx-auto text-center w-100 margin-cpp" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200">
+                    <div class="mx-auto text-center w-100 margin-cpp" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200">
                         <img src="{{ asset('asset/img/Ahmad Ali Mutezar.png') }}" class="img-fluid photo-mempelai" alt="photo_ahmad_ali_mutezar">
                     </div>
                     
-                    <p class="text-playfair text-center fs-5 fw-bold" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">Ahmad Ali Mutezar</p>
-                    <p class="text-playfair fs-6 text-center putra-putri" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">
+                    <p class="text-playfair text-center fs-5 fw-bold" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">Ahmad Ali Mutezar</p>
+                    <p class="text-playfair fs-6 text-center putra-putri" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">
                         Putra dari Alm. Bapak Tolibin & Ibu Fitriah
                     </p>
                 </div>
@@ -137,29 +138,29 @@
             <!-- Akad & Resepsi -->
             <div class="col-sm-12 text-center position-relative akad">
                 <div class="text-playfair">
-                    <img src="{{ asset('asset/img/Vector_Ring.png') }}" class="mb-3 img-fluid wedding-ring" alt="wedding_ring" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">
-                    <p class="fw-bold font-20" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Akad Nikah</p>
-                    <p class="font-20" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Sabtu, <br> 23 Desember 2023 <br> 15:30 - 16:30 WIB</p>
-                    <hr class="mx-auto my-2" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">
-                    <p class="fw-bold font-20" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Masjid Assahara</p>
-                    <p class="font-14" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Komplek Wali Kota Jakarta Barat <br> Jl. Kembangan Raya, Kec Kembangan</p>
-                    <a type="button" href="https://maps.app.goo.gl/ht8UFkr3VfzKgU3HA" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="300" class="btn btn-lg w-75 btn-map opacity-75 fw-bold">Open Map</a>
+                    <img src="{{ asset('asset/img/Vector_Ring.png') }}" class="mb-3 img-fluid wedding-ring" alt="wedding_ring" data-aos-once="true" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">
+                    <p class="fw-bold font-20" data-aos-once="true" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Akad Nikah</p>
+                    <p class="font-20" data-aos-once="true" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Sabtu, <br> 23 Desember 2023 <br> 15:30 - 16:30 WIB</p>
+                    <hr class="mx-auto my-2" data-aos-once="true" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">
+                    <p class="fw-bold font-20" data-aos-once="true" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Masjid Assahara</p>
+                    <p class="font-14" data-aos-once="true" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Komplek Wali Kota Jakarta Barat <br> Jl. Kembangan Raya, Kec Kembangan</p>
+                    <a type="button" href="https://maps.app.goo.gl/ht8UFkr3VfzKgU3HA" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="300" class="btn btn-lg w-75 btn-map opacity-75 fw-bold">Open Map</a>
                 </div>
                 <div class="text-playfair resepsi">
-                    <img src="{{ asset('asset/img/glass.png') }}" data-aos="fade-up" data-aos-duration="1500"class="mb-3 img-fluid wedding-glass" alt="wedding_ring" data-aos-offset="300">
-                    <p class="fw-bold font-20" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Resepsi</p>
-                    <p class="font-20" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Sabtu, <br> 23 Desember 2023 <br> 19:00 - 21:00 WIB</p>
-                    <hr class="mx-auto my-2" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">
-                    <p class="fw-bold font-20" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Aula Gedung</p>
-                    <p class="font-14"  data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Komplek Wali Kota Jakarta Barat <br> Jl. Kembangan Raya, Kec Kembangan</p>
-                    <a type="button" href="https://maps.app.goo.gl/ht8UFkr3VfzKgU3HA"  data-aos="fade-down" data-aos-duration="2000" data-aos-delay="300" class="btn btn-lg w-75 btn-map opacity-75 fw-bold">Open Map</a>
+                    <img src="{{ asset('asset/img/glass.png') }}" data-aos-once="true" data-aos="fade-up" data-aos-duration="1500"class="mb-3 img-fluid wedding-glass" alt="wedding_ring" data-aos-offset="300">
+                    <p class="fw-bold font-20" data-aos-once="true" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Resepsi</p>
+                    <p class="font-20" data-aos-once="true" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Sabtu, <br> 23 Desember 2023 <br> 19:00 - 21:00 WIB</p>
+                    <hr class="mx-auto my-2" data-aos-once="true" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">
+                    <p class="fw-bold font-20" data-aos-once="true" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Aula Gedung</p>
+                    <p class="font-14"  data-aos-once="true" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Komplek Wali Kota Jakarta Barat <br> Jl. Kembangan Raya, Kec Kembangan</p>
+                    <a type="button" href="https://maps.app.goo.gl/ht8UFkr3VfzKgU3HA"  data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="300" class="btn btn-lg w-75 btn-map opacity-75 fw-bold">Open Map</a>
                 </div>
             </div>
 
             <!-- countdown and Surah -->
             <div class="col-sm-12 text-center position-relative mt-5 p-0">
-                <h1 class="text-playfair fw-bold count-down" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Countdown to Our <br> Wedding Day</h1>
-                <div id="waktu-mundur" style="z-index: 1;" data-aos="fade-down" data-aos-duration="1500" data-aos-offset="300" class="fs-3 text-playfair p-5 d-flex d-flex justify-content-around">
+                <h1 class="text-playfair fw-bold count-down" data-aos-once="true" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="300">Countdown to Our <br> Wedding Day</h1>
+                <div id="waktu-mundur" style="z-index: 1;" data-aos-once="true" data-aos="fade-down" data-aos-duration="1500" data-aos-offset="300" class="fs-3 text-playfair p-5 d-flex d-flex justify-content-around">
                     <div class="countdown-item">
                         <span id="hari"></span><br>Hari
                     </div>
@@ -177,15 +178,15 @@
                     <img src="{{ asset('asset/img/Flower Up.png') }}" class="img-fluid w-100 flower-up" alt="flower" style="z-index: -2;">
                 </div>
                 <div class="surah">
-                    <img src="{{ asset('asset/img/ar-rum 21.png') }}" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500" class="img-fluid mb-3" alt="surah_ar_rum_ayat_21">
-                    <p class="text-playfair-italic font-14" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">“ Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir ”</p>
-                    <p class="ayat fw-bold" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">(QS Ar - Rum : 21)</p>
+                    <img src="{{ asset('asset/img/ar-rum 21.png') }}" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500" class="img-fluid mb-3" alt="surah_ar_rum_ayat_21">
+                    <p class="text-playfair-italic font-14" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">“ Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir ”</p>
+                    <p class="ayat fw-bold" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">(QS Ar - Rum : 21)</p>
                 </div>
-                <img src="{{ asset('asset/img/removebg-flower 3.png') }}" data-aos="fade-down" data-aos-offset="200" data-aos-delay="500" data-aos-duration="2000" class="img-fluid small-flower-1" alt="small_flower">
+                <img src="{{ asset('asset/img/removebg-flower 3.png') }}" data-aos-once="true" data-aos="fade-down" data-aos-offset="200" data-aos-delay="500" data-aos-duration="2000" class="img-fluid small-flower-1" alt="small_flower">
                 <div class="surah">
-                    <img src="{{ asset('asset/img/HR Al Baihaqi dalam Syuabul Iman.png') }}" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500" class="img-fluid w-100 mb-3" alt="hr_baihaqi">
-                    <p class="text-playfair-italic font-14" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">“ jika seseorang menikah, maka ia telah menyempurnakan separuh agamanya. Karenanya, bertakwalah pada Allah pada separuh yang lainnya. “</p>
-                    <p class="hadits fw-bold" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">(HR. Al Baihaqi dalam Syu’abul Iman.  Dishahihkan oleh <br> Syaikh Al Albani dalam As Silsilah Ash Shahihah no. 625)</p>
+                    <img src="{{ asset('asset/img/HR Al Baihaqi dalam Syuabul Iman.png') }}" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500" class="img-fluid w-100 mb-3" alt="hr_baihaqi">
+                    <p class="text-playfair-italic font-14" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">“ jika seseorang menikah, maka ia telah menyempurnakan separuh agamanya. Karenanya, bertakwalah pada Allah pada separuh yang lainnya. “</p>
+                    <p class="hadits fw-bold" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="200" data-aos-delay="500">(HR. Al Baihaqi dalam Syu’abul Iman.  Dishahihkan oleh <br> Syaikh Al Albani dalam As Silsilah Ash Shahihah no. 625)</p>
                 </div>
             </div>
 
@@ -194,45 +195,45 @@
                 <div style="z-index: 1;">
                     <img src="{{ asset('asset/img/Flower Down.png') }}" class="img-fluid w-100" alt="flower">
                     <div class="position-absolute start-50 translate-middle-x text-center w-100" style="z-index: 1;">
-                        <h1 class="love-title" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">Love Story</h1>
+                        <h1 class="love-title" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">Love Story</h1>
                         <div>
-                            <h3 class="position-absolute mx-auto w-100 together-title fw-semibold text-playfair-black" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">Awal Pertemuan</h3>
-                            <img src="{{ asset('asset/img/awal pertemuan.png') }}" class="img-fluid w-100" alt="photo kita smp" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000" data-aos-offset="300">
-                            <p class="text-playfair-black position-absolute mx-auto w-100 together-description font-16" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">Dipertemukan di <br> masa putih biru</p>
+                            <h3 class="position-absolute mx-auto w-100 together-title fw-semibold text-playfair-black" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">Awal Pertemuan</h3>
+                            <img src="{{ asset('asset/img/awal pertemuan.png') }}" class="img-fluid w-100" alt="photo kita smp" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000" data-aos-offset="300">
+                            <p class="text-playfair-black position-absolute mx-auto w-100 together-description font-16" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">Dipertemukan di <br> masa putih biru</p>
                         </div>
 
                         <div>
-                            <h3 class="text-playfair-black together-title-2 fw-bold" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">10 Tahun Bersama</h3>
-                            <img src="{{ asset('asset/img/Mask group Sepeda.png') }}" class="img-fluid img-together my-2" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="300" alt="photo bareng naik sepeda">
-                            <p class="text-playfair-black position-absolute mx-auto w-100 font-16" data-aos="fade-down" data-aos-offset="300" data-aos-duration="2000">Telah dilewati</p>
+                            <h3 class="text-playfair-black together-title-2 fw-bold" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">10 Tahun Bersama</h3>
+                            <img src="{{ asset('asset/img/Mask group Sepeda.png') }}" class="img-fluid img-together my-2" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="500" data-aos-offset="300" alt="photo bareng naik sepeda">
+                            <p class="text-playfair-black position-absolute mx-auto w-100 font-16" data-aos-once="true" data-aos="fade-down" data-aos-offset="300" data-aos-duration="2000">Telah dilewati</p>
                         </div>
 
                         <div class>
-                            <h3 class="text-playfair-black together-title-3 fw-bold" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000" data-aos-offset="300">Tetap Bersama</h3>
-                            <img src="{{ asset('asset/img/Mask group wisuda.png') }}" class="img-fluid img-together my-2" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000" data-aos-offset="300" alt="photo bareng wisuda">
-                            <p class="text-playfair-black position-absolute mx-auto w-100 font-16" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">Hingga dewasa<br> mudah dijalani</p>
+                            <h3 class="text-playfair-black together-title-3 fw-bold" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000" data-aos-offset="300">Tetap Bersama</h3>
+                            <img src="{{ asset('asset/img/Mask group wisuda.png') }}" class="img-fluid img-together my-2" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000" data-aos-offset="300" alt="photo bareng wisuda">
+                            <p class="text-playfair-black position-absolute mx-auto w-100 font-16" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">Hingga dewasa<br> mudah dijalani</p>
                         </div>
 
                         <div class>
-                            <h3 class="text-playfair-black together-title-4 fw-bold mb-3" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">Untuk meraih mimpi</h3>
-                            <img src="{{ asset('asset/img/Mask group nikah.png') }}" class="img-fluid img-together" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000" data-aos-offset="300" alt="photo bareng wisuda">
-                            <p class="text-playfair-black position-absolute mx-auto w-100 font-16" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">Menjaga jodoh sendiri</p>
+                            <h3 class="text-playfair-black together-title-4 fw-bold mb-3" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">Untuk meraih mimpi</h3>
+                            <img src="{{ asset('asset/img/Mask group nikah.png') }}" class="img-fluid img-together" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000" data-aos-offset="300" alt="photo bareng wisuda">
+                            <p class="text-playfair-black position-absolute mx-auto w-100 font-16" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300">Menjaga jodoh sendiri</p>
                         </div>
 
-                        <img src="{{ asset('asset/img/removebg-flower 2.png') }}" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300" class="img-fluid small-flower-2" alt="small_flower">
+                        <img src="{{ asset('asset/img/removebg-flower 2.png') }}" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="300" class="img-fluid small-flower-2" alt="small_flower">
                         <div class="surah">
-                            <h1 class="title-carrate-32 fw-bold mb-4" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350">Do'a untuk <br> Kedua Mempelai</h1>
-                            <img src="{{ asset('asset/img/HR Abu Daud.png') }}" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350" class="img-fluid w-100 mb-3" alt="hr_baihaqi">
-                            <p class="text-playfair-italic font-14" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350">“ Semoga Allah memberkahimu ketika bahagia dan ketika susah dan mengumpulkan kalian berdua dalam kebaikan. “</p>
-                            <p class="ayat fw-bold" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350">(HR. Abu Daud, no. 2130; Tirmidzi, no. 1091)</p>
+                            <h1 class="title-carrate-32 fw-bold mb-4" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350">Do'a untuk <br> Kedua Mempelai</h1>
+                            <img src="{{ asset('asset/img/HR Abu Daud.png') }}" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350" class="img-fluid w-100 mb-3" alt="hr_baihaqi">
+                            <p class="text-playfair-italic font-14" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350">“ Semoga Allah memberkahimu ketika bahagia dan ketika susah dan mengumpulkan kalian berdua dalam kebaikan. “</p>
+                            <p class="ayat fw-bold" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350">(HR. Abu Daud, no. 2130; Tirmidzi, no. 1091)</p>
                         </div>
-                        <img src="{{ asset('asset/img/removebg-flower 5.png') }}" data-aos="fade-down" data-aos-duration="3000" data-aos-offset="350" class="img-fluid small-flower-3" alt="small_flower">
+                        <img src="{{ asset('asset/img/removebg-flower 5.png') }}" data-aos-once="true" data-aos="fade-down" data-aos-duration="3000" data-aos-offset="350" class="img-fluid small-flower-3" alt="small_flower">
                         <div class="mt-5">
-                            <h1 class="title-carrate-32 fw-bold" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350">Wedding Gift</h1>
-                            <p class="text-playfair-black font-14" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350">
+                            <h1 class="title-carrate-32 fw-bold" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350">Wedding Gift</h1>
+                            <p class="text-playfair-black font-14" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350">
                                 Restu dan kedatangan kamu <br> di hari pernikahan, sudah cukup bagi kami 
                             </p>
-                            <p class="text-playfair-black font-14" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350">
+                            <p class="text-playfair-black font-14" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="350">
                                 Namun jika memberi adalah ungkapan <br> tanda kasih, kamu dapat memberi kado <br> secara cashless
                             </p>
                             
@@ -254,14 +255,14 @@
                             <img src="{{ asset('asset/img/Flower Up.png') }}" class="img-fluid w-100 position-absolute start-50 translate-middle-x flower-up-gift" alt="flower">
                         </div>
                         <div class="closing text-playfair">
-                            <p data-aos="fade-down" data-aos-duration="1500" class="font-14">Atas kehadiran dan doa restu <br> Bapak/Ibu/Saudara/i kami ucapkan terima kasih</p>
-                            <p data-aos="fade-down" data-aos-duration="1500" class="mt-5 font-14">Kami yang Berbahagia</p>
-                            <p data-aos="fade-down" data-aos-duration="1500" class="mempelai">Tezar & Sahira</p>
-                            <img src="{{ asset('asset/img/Mask group circle.png') }}" data-aos="fade-down" data-aos-duration="1500" class="img-fluid img-closing" alt="photo_ahmad_ali_mutezar">
+                            <p data-aos-once="true" data-aos="fade-down" data-aos-duration="1500" class="font-14">Atas kehadiran dan doa restu <br> Bapak/Ibu/Saudara/i kami ucapkan terima kasih</p>
+                            <p data-aos-once="true" data-aos="fade-down" data-aos-duration="1500" class="mt-5 font-14">Kami yang Berbahagia</p>
+                            <p data-aos-once="true" data-aos="fade-down" data-aos-duration="1500" class="mempelai">Tezar & Sahira</p>
+                            <img src="{{ asset('asset/img/Mask group circle.png') }}" data-aos-once="true" data-aos="fade-down" data-aos-duration="1500" class="img-fluid img-closing" alt="photo_ahmad_ali_mutezar">
                             
-                            <h1 class="title-carrate mt-4" data-aos="fade-down" data-aos-duration="2000">Wassalamu’alaikum <br> Warahmatullahi Wabarakatuh</h1>
-                            <img src="{{ asset('asset/img/removebg-flower 3.png') }}" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="-200" class="my-3 img-fluid small-flower-4" alt="small_flower">
-                            <p data-aos="fade-down" class="font-14" data-aos-duration="2000" data-aos-offset="-200">
+                            <h1 class="title-carrate mt-4" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000">Wassalamu’alaikum <br> Warahmatullahi Wabarakatuh</h1>
+                            <img src="{{ asset('asset/img/removebg-flower 3.png') }}" data-aos-once="true" data-aos="fade-down" data-aos-duration="2000" data-aos-offset="-200" class="my-3 img-fluid small-flower-4" alt="small_flower">
+                            <p data-aos-once="true" data-aos="fade-down" class="font-14" data-aos-duration="2000" data-aos-offset="-200">
                                 undangan ini dibuat oleh<br>
                                 @ali.mutezar & @sahirasbl<br>
                             </p>
@@ -356,6 +357,11 @@
 
     <script>
         AOS.init();
+
+        var animatedElement = document.querySelector('.salam');
+        animatedElement.addEventListener('aos:in', function(event) {
+            AOS.refreshHard({disable: true});
+        });
     </script>
 
 
